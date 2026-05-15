@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacha Café | Expérience Gastronomique Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="logo">PACHA <span class="gold">CAFÉ</span></h1>
+            <p class="tagline">L'art de vivre et de savourer</p>
+            <div class="scroll-indicator"><span>Scrollez pour découvrir</span></div>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <div class="nav-container">
+            <div class="search-box">
+                <input type="text" id="menuSearch" placeholder="Rechercher un délice...">
+            </div>
+            <div class="categories-wrapper">
+                <ul class="categories">
+                    <li><a href="#" class="filter-btn active" data-category="all">Tout</a></li>
+                    <li><a href="#" class="filter-btn" data-category="petit-dejeuner">Petit Déjeuner</a></li>
+                    <li><a href="#" class="filter-btn" data-category="cafe">Café & Thé</a></li>
+                    <li><a href="#" class="filter-btn" data-category="sucre">Sucré</a></li>
+                    <li><a href="#" class="filter-btn" data-category="froid">Boissons Froides</a></li>
+                    <li><a href="#" class="filter-btn" data-category="sale">Salé & Plats</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="menu-container">
+        
+        <div id="menu-grid" class="menu-grid">
+            <div class="menu-item" data-category="petit-dejeuner">
+                <div class="item-header">
+                    <h3>BONJOUR</h3>
+                    <span class="price">9DT</span>
+                </div>
+                <p class="description">CAFÉ AU CHOIX + JUS + (CROISSANT OU CAKE) + EAU 0.5 L</p>
+            </div>
+
+            <div class="menu-item highlight" data-category="petit-dejeuner">
+                <div class="item-header">
+                    <h3>MATINAL</h3>
+                    <span class="price">25DT</span>
+                </div>
+                <p class="description">CAFÉ AU CHOIX + JUS + (CROISSANT OU CAKE OU BIEN PAIN PERDU) + (MINI OMELETTE OU TOAST OEUF POCHÉ) + FONDANT AU CHOCOLAT + BEURRE + CONFITURE + NUTELLA + PAIN + YAOURT + GRANOLA + EAU 0.5 L</p>
+            </div>
+
+            <div class="menu-item" data-category="petit-dejeuner">
+                <div class="item-header">
+                    <h3>SALÉ</h3>
+                    <span class="price">25DT</span>
+                </div>
+                <p class="description">CAFÉ AU CHOIX + JUS + CROISSANT SALÉ + (MINI-OMELETTE OU TOAST OEUF POCHÉ) + CHARCUTERIE + HARISSA + FRAIDOUX + MAYONNAISE + NUGGETS + BOULE FROMAGÈRE + PAIN + YAOURT + GRANOLA + EAU 0.5 L</p>
+            </div>
+
+            <div class="menu-item" data-category="cafe">
+                <div class="item-header">
+                    <h3>EXPRESS</h3>
+                    <span class="price">3.3 DT</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="cafe">
+                <div class="item-header">
+                    <h3>CAPPUCIN</h3>
+                    <span class="price">3.5 DT</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="cafe">
+                <div class="item-header">
+                    <h3>NOISETTE</h3>
+                    <span class="price">173 DT</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="sucre">
+                <div class="item-header">
+                    <h3>GÂTEAU TURC TRILEÇE</h3>
+                    <span class="price">6 DT</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="sucre">
+                <div class="item-header">
+                    <h3>CHEESECAKE SAN SEBASTIAN</h3>
+                    <span class="price">12 DT</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="froid">
+                <div class="item-header">
+                    <h3>MOJITO VIRGIN</h3>
+                    <span class="price">10 DT</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="sale">
+                <div class="item-header">
+                    <h3>POULET SAUCE CHAMPIGNON (PLAT)</h3>
+                    <span class="price">25 DT</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 PACHA CAFÉ. Tous droits réservés.</p>
+            <div class="socials">
+                <span>Instagram</span> • <span>Facebook</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
